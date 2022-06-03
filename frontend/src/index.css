@@ -1,0 +1,105 @@
+.hr1{
+
+  border: 0.25px solid #7a67ff;
+
+
+}
+
+.nav-item {
+  margin-right: 0rem!important;
+}
+
+.btt{
+
+  FLOAT: right;
+}
+.btnMedical{
+
+   
+    float: left!important; 
+}
+
+.login-right {
+  background-color: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+  padding: 25px;
+}
+
+.imgLogin{
+  margin-left: -163px;
+
+}
+.btn-primary {
+  color: #fff;
+  background-color: #7a67ff;
+  border-color: #1a1a1a;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+  color: #493ca0;
+}
+
+
+
+
+.navbar-dark .navbar-nav .show>.nav-link, .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
+  color: #000;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(0 0 0);
+}
+
+main {
+  min-height: 80vh;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel img {
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
